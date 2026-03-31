@@ -54,6 +54,6 @@ It focuses on applying in silico approaches to analyze and optimize metabolic pa
 
 
 ##  Contact
-Danieona Mamodu  
-Email: [your email]  
-LinkedIn: [your LinkedIn]
+Daniel Enemona Mamodu  
+Email: danielmamodu32@gmail.com  
+LinkedIn: LinkedIn/in/danniejnr
