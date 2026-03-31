@@ -1,0 +1,15 @@
+import cobra
+from cobra.io import load_model
+
+# 1. Load the E. coli core metabolic model
+model = load_model("textbook")
+
+# 2. Define biological constraints (e.g., Glucose uptake limit)
+model.reactions.EX_glc__D_e.lower_bound = -10 
+
+# 3. Perform Flux Balance Analysis (FBA) to optimize Growth
+solution = model.optimize()
+
+# 4. Display Results
+print(f"Optimal Growth Rate: {solution.objective_value:.4f} mmol/gDW/h")
+print(model.summary())
